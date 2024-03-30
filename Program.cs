@@ -60,8 +60,21 @@
 
 using System.Text;
 
-using Test3;
+//using Test3;
+using Test4;
 
 //Result.staircase2(8);
-string a = "10:56:48PM";
-Console.WriteLine(Result.timeConversion(a));
+//string a = "10:56:48PM";
+//Console.WriteLine(Result.timeConversion(a));
+List<int> list = new List<int>();
+list.Add(2);
+list.Add(3);
+list.Add(4);
+list.Add(5);
+list.Add(6);
+list.Add(7);
+list.Add(8);
+list.Add(9);
+list.Add(10);
+list.Add(1);
+Result.insertionSort1(10, list);
